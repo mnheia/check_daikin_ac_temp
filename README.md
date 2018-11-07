@@ -22,5 +22,8 @@ define service{
 ```
 Where 'daikin-ac-ip' should be replaced with your Daikin AC IP
 
+#Requirements
+- curl
+
 # Bugs
 Please report any bugs or feature requests through the web interface at https://github.com/mnheia/check_running_vms/issues
