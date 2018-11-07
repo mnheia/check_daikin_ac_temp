@@ -22,7 +22,7 @@ define service{
 ```
 Where 'daikin-ac-ip' should be replaced with your Daikin AC IP
 
-#Requirements
+# Requirements
 - curl
 
 # Bugs
