@@ -7,14 +7,14 @@ A Nagios plugin to check inside and outside temperature on Daikin AC
 ## Server Side
 ```
 define service{
-        use mitja-sovec-service
+        use service-name
         host_name hostname
         service_description OUTSIDE-TEMPERATURE
         check_command check_outside_temp!http://daikin-ac-ip/aircon/get_sensor_info
 }
 
 define service{
-        use mitja-sovec-service
+        use service-name
         host_name hostname
         service_description INSIDE-TEMPERATURE
         check_command check_inside_temp!http://daikin-ac-ip/aircon/get_sensor_info
