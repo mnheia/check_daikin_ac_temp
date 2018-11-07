@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# check_running_vms is a Nagios plugin to check number of running VMs on KVM or XEN environment
+# check_temp is a Nagios plugin to check inside and outside temperature on Daikin AC
 #
 # Copyright (c) 2018, Mitja Sovec <mitja@sovec.si>
 #
