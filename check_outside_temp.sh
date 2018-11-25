@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# check_temp is a Nagios plugin to check inside and outside temperature on Daikin AC
+# check_daikin_ac_temp is a Nagios plugin to check inside and outside temperature on Daikin AC
 #
 # Copyright (c) 2018, Mitja Sovec <mitja@sovec.si>
 #
