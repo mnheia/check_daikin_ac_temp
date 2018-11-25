@@ -1,6 +1,6 @@
 Copyright (c) 2018, Mitja Sovec <mitja@sovec.si>
 
-# check_temp
+# check_daikin_ac_temp
 A Nagios plugin to check inside and outside temperature on Daikin AC
 
 # Example
@@ -26,4 +26,4 @@ Where 'daikin-ac-ip' should be replaced with your Daikin AC IP
 - curl
 
 # Bugs
-Please report any bugs or feature requests through the web interface at https://github.com/mnheia/check_running_vms/issues
+Please report any bugs or feature requests through the web interface at https://github.com/mnheia/check_daikin_ac_temp/issues
