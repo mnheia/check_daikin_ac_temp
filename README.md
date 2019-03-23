@@ -19,6 +19,13 @@ define service{
         service_description INSIDE-TEMPERATURE
         check_command check_inside_temp!http://daikin-ac-ip/aircon/get_sensor_info
 }
+
+define service{
+        use service-name
+        host_name hostname
+        service_description POWER-STATE
+        check_command check_daikin_power_state!http://daikin-ac-ip/aircon/get_control_info
+}
 ```
 Where 'daikin-ac-ip' should be replaced with your Daikin AC IP
 
