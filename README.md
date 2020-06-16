@@ -1,4 +1,4 @@
-Copyright (c) 2018, Mitja Sovec <mitja@sovec.si>
+Copyright (c) 2018, Mnheia <mnheia@gmail.com>
 
 # check_daikin_ac_temp
 A Nagios plugin to check inside and outside temperature on Daikin AC
